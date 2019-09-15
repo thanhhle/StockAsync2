@@ -4,14 +4,16 @@
     <Files>
       <File FileName="Stock.cs" Line="50" Column="1" />
       <File FileName="StockBroker.cs" />
-      <File FileName="StockApplication.cs" />
-      <File FileName="output.txt" Line="52" Column="1" />
+      <File FileName="StockApplication.cs" Line="1" Column="14" />
+      <File FileName="output.txt" Line="3" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Problem_2" expanded="True">
-            <Node name="Problem_2" expanded="True" selected="True" />
+            <Node name="Problem_2" expanded="True">
+              <Node name="StockApplication.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
