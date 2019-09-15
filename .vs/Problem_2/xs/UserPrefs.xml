@@ -1,0 +1,28 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{E862EE2E-1EE0-429C-94BC-BE146ACEC184}|Default">
+  <MonoDevelop.Ide.ItemProperties.Problem__2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Stock.cs" Line="50" Column="1" />
+      <File FileName="StockBroker.cs" />
+      <File FileName="StockApplication.cs" />
+      <File FileName="output.txt" Line="52" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Problem_2" expanded="True">
+            <Node name="Problem_2" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../Stock.cs" line="55" offsetX="-1" offsetY="-1" expression="System.Random" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
