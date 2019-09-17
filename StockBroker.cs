@@ -19,14 +19,14 @@ namespace Problem_2
             // Add this stock to the list of stocks controlled by the stock broker
             _stocks.Add(stock);
 
-            // Subscribe to Notify event handler
+            // Subscribe to StockEvent event
             stock.StockEvent += Notify;
         }
 
         // Output to the console the broker's name and the stock's name, value, and the number of changes in value when the threshold is reached
-        private void Notify(string stockName, int currentValue, int numOfChanges)
+        private void Notify(string stockName, int initialValue, int currentValue, int numOfChanges, DateTime currentTime)
         {
-            Console.WriteLine(_brokerName.PadRight(15) + stockName.PadRight(15) + currentValue.ToString().PadRight(15) + numOfChanges.ToString().PadRight(15));
-        } 
+            Console.WriteLine(_brokerName.PadRight(20) + stockName.PadRight(20) + initialValue.ToString().PadRight(20) + currentValue.ToString().PadRight(20) + numOfChanges.ToString().PadRight(20) + currentTime);
+        }
     }
 }

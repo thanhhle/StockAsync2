@@ -8,12 +8,13 @@ namespace Problem_2
         static void Main(string[] args)
         {
             // For Console display
-            Console.WriteLine("{0}{1}{2}{3}\n", "Broker".PadRight(15), "Stock".PadRight(15), "Value".PadRight(15), "Changes".PadRight(15));
+            Console.WriteLine("{0}{1}{2}{3}{4}{5}\n", "Broker Name".PadRight(20), "Stock Name".PadRight(20), "Initial Value".PadRight(20), "Current Value".PadRight(20), "Changes".PadRight(20), "Date    Time");
 
             // For Textfile display
-            string title = "Date    Time".PadRight(25) + "Stock Name".PadRight(20) + "Initial Value".PadRight(20) + "Current Value\n\n";
+            string title = "Stock Name".PadRight(20) + "Initial Value".PadRight(20) + "Current Value".PadRight(20) + "Changes".PadRight(20) + "Date    Time\n\n";
             string path = Path.Combine(Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(Directory.GetCurrentDirectory()))), "output.txt");
             File.WriteAllText(path, title);
+            
 
             // Program
             Stock stock1 = new Stock("Technology", 160, 5, 15);

@@ -2,17 +2,17 @@
   <MonoDevelop.Ide.ItemProperties.Problem__2 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Stock.cs" Line="50" Column="1" />
+      <File FileName="Stock.cs" Line="143" Column="1" />
       <File FileName="StockBroker.cs" />
-      <File FileName="StockApplication.cs" Line="1" Column="14" />
-      <File FileName="output.txt" Line="3" Column="1" />
+      <File FileName="output.txt" Line="1" Column="1" />
+      <File FileName="StockApplication.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Problem_2" expanded="True">
             <Node name="Problem_2" expanded="True">
-              <Node name="StockApplication.cs" selected="True" />
+              <Node name="output.txt" selected="True" />
             </Node>
           </Node>
         </State>
@@ -20,7 +20,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
-    <Watch file="../../../Stock.cs" line="55" offsetX="-1" offsetY="-1" expression="System.Random" liveUpdate="False" />
+    <Watch file="../../../../Problem 2 (display the stock when its threshold is reached once)/Stock.cs" line="55" offsetX="-1" offsetY="-1" expression="System.Random" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

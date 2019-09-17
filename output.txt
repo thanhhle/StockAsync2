@@ -1,2 +1,27 @@
-Date    Time             Stock Name          Initial Value       Current Value
+Stock Name          Initial Value       Current Value       Changes             Date    Time
 
+Retail              30                  23                  7                   9/17/19 4:14:59 PM
+Retail              30                  22                  8                   9/17/19 4:14:59 PM
+Retail              30                  22                  9                   9/17/19 4:15:00 PM
+Retail              30                  23                  10                  9/17/19 4:15:00 PM
+Retail              30                  23                  11                  9/17/19 4:15:01 PM
+Retail              30                  24                  12                  9/17/19 4:15:01 PM
+Retail              30                  24                  13                  9/17/19 4:15:02 PM
+Retail              30                  22                  14                  9/17/19 4:15:02 PM
+Technology          160                 177                 15                  9/17/19 4:15:03 PM
+Retail              30                  21                  15                  9/17/19 4:15:03 PM
+Retail              30                  19                  16                  9/17/19 4:15:03 PM
+Technology          160                 176                 17                  9/17/19 4:15:04 PM
+Retail              30                  17                  17                  9/17/19 4:15:04 PM
+Technology          160                 179                 18                  9/17/19 4:15:04 PM
+Retail              30                  18                  18                  9/17/19 4:15:04 PM
+Technology          160                 175                 19                  9/17/19 4:15:05 PM
+Retail              30                  17                  19                  9/17/19 4:15:05 PM
+Retail              30                  17                  20                  9/17/19 4:15:05 PM
+Retail              30                  15                  21                  9/17/19 4:15:06 PM
+Retail              30                  16                  22                  9/17/19 4:15:06 PM
+Technology          160                 177                 23                  9/17/19 4:15:07 PM
+Retail              30                  16                  23                  9/17/19 4:15:07 PM
+Technology          160                 179                 24                  9/17/19 4:15:07 PM
+Retail              30                  17                  24                  9/17/19 4:15:07 PM
+Retail              30                  18                  25                  9/17/19 4:15:08 PM
