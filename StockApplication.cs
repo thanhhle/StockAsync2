@@ -1,11 +1,12 @@
 ﻿using System;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace Problem_2
 {
     class StockApplication
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             // For Console display
             Console.WriteLine("{0}{1}{2}{3}{4}{5}\n", "Broker Name".PadRight(20), "Stock Name".PadRight(20), "Initial Value".PadRight(20), "Current Value".PadRight(20), "Changes".PadRight(20), "Date    Time");
@@ -41,6 +42,8 @@ namespace Problem_2
             b4.AddStock(stock2);
             b4.AddStock(stock3);
             b4.AddStock(stock4);
+
+            await Task.WhenAll(stock1.Task, stock2.Task, stock3.Task, stock4.Task);
         }
     }
 }
