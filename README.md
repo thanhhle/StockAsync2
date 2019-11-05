@@ -1,5 +1,7 @@
-# Stock
+# StockAsync
 An application written in C#
+Console and Textfile output are identical 
+
 
 ## Description
 - This application involves delegates, events, and asynchronization
